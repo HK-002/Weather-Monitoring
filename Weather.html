@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="Images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Monitoring ZEOTAP</h1>
+    </header>
+<div class="container">
+
+
+    <section class="sec1">
+        
+        <div class="city-weather">
+            <div class="city-name"><b>Delhi</b></div>
+            <div class="weather-info">
+                <p><strong>Main Condition:</strong> <span id="delhi-condition">Loading...</span></p>
+                <p><strong>Temperature:</strong> <span id="delhi-temp">Loading...</span> | <span id="delhi-temp-kelvin">Loading...</span></p>
+                <p><strong>Feels Like:</strong> <span id="delhi-feels-like">Loading...</span></p>
+                <p><strong>Last Updated:</strong> <span id="delhi-updated">Loading...</span></p>
+            </div>
+        </div>
+
+       
+        <div class="city-weather">
+            <div class="city-name"><b>Mumbai</b></div>
+            <div class="weather-info">
+                <p><strong>Main Condition:</strong> <span id="mumbai-condition">Loading...</span></p>
+                <p><strong>Temperature:</strong> <span id="mumbai-temp">Loading...</span> | <span id="mumbai-temp-kelvin">Loading...</span></p>
+                <p><strong>Feels Like:</strong> <span id="mumbai-feels-like">Loading...</span></p>
+                <p><strong>Last Updated:</strong> <span id="mumbai-updated">Loading...</span></p>
+            </div>
+        </div>
+
+        
+        <div class="city-weather">
+            <div class="city-name"><b>Chennai</b></div>
+            <div class="weather-info">
+                <p><strong>Main Condition:</strong> <span id="chennai-condition">Loading...</span></p>
+                <p><strong>Temperature:</strong> <span id="chennai-temp">Loading...</span> | <span id="chennai-temp-kelvin">Loading...</span></p>
+                <p><strong>Feels Like:</strong> <span id="chennai-feels-like">Loading...</span></p>
+                <p><strong>Last Updated:</strong> <span id="chennai-updated">Loading...</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec1">
+        
+        <div class="city-weather">
+            <div class="city-name"><b>Bangalore</b></div>
+            <div class="weather-info">
+                <p><strong>Main Condition:</strong> <span id="bangalore-condition">Loading...</span></p>
+                <p><strong>Temperature:</strong> <span id="bangalore-temp">Loading...</span> | <span id="bangalore-temp-kelvin">Loading...</span></p>
+                <p><strong>Feels Like:</strong> <span id="bangalore-feels-like">Loading...</span></p>
+                <p><strong>Last Updated:</strong> <span id="bangalore-updated">Loading...</span></p>
+            </div>
+        </div>
+
+        
+        <div class="city-weather" >
+            <div class="city-name"><b>Kolkata</b></div>
+            <div class="weather-info">
+                <p><strong>Main Condition:</strong> <span id="kolkata-condition">Loading...</span></p>
+                <p><strong>Temperature:</strong> <span id="kolkata-temp">Loading...</span> | <span id="kolkata-temp-kelvin">Loading...</span></p>
+                <p><strong>Feels Like:</strong> <span id="kolkata-feels-like">Loading...</span></p>
+                <p><strong>Last Updated:</strong> <span id="kolkata-updated">Loading...</span></p>
+            </div>
+        </div>
+
+        
+        <div class="city-weather">
+            <div class="city-name"><b>Hyderabad</b></div>
+            <div class="weather-info">
+                <p><strong>Main Condition:</strong> <span id="hyderabad-condition">Loading...</span></p>
+                <p><strong>Temperature:</strong> <span id="hyderabad-temp">Loading...</span> | <span id="hyderabad-temp-kelvin">Loading...</span></p>
+                <p><strong>Feels Like:</strong> <span id="hyderabad-feels-like">Loading...</span></p>
+                <p><strong>Last Updated:</strong> <span id="hyderabad-updated">Loading...</span></p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="summary">
+        <h2>Daily Weather Summary</h2>
+        <p><strong>Average Temperature:</strong> <span id="avg-temp">Loading...</span></p>
+        <p><strong>Max Temperature:</strong> <span id="max-temp">Loading...</span></p>
+        <p><strong>Min Temperature:</strong> <span id="min-temp">Loading...</span></p>
+        <p><strong>Dominant Condition:</strong> <span id="dominant-condition">Loading...</span></p>
+    </section>
+
+   
+    <section class="alerts">
+        <h2>Weather Alerts</h2>
+        <p class="alert" id="alert-message">No alerts at the moment.</p>
+    </section>
+
+    <footer>
+        <p>Weather data powered by <a href="https://openweathermap.org" target="_blank">OpenWeatherMap API</a></p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
