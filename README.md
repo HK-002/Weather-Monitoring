@@ -1,2 +1,2 @@
 # Weather-Monitoring
-This project is a Weather Monitoring Application built using the OpenWeatherMap API. It fetches real-time weather data.
+This project is a Weather Monitoring Application built using the OpenWeatherMap API. It fetches real-time weather data for six major Indian cities: Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad. The application displays key weather metrics like main condition, temperature (both in Celsius and Kelvin), feels-like temperature, and the time of the last update for each city.
